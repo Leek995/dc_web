@@ -1,0 +1,498 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .election-info {
+        max-width: 600px;
+        padding: 25px;
+        margin: 45px auto;
+    }
+
+    .election-info h2 {
+        font-size: 28px;
+    }
+
+    .election-info p {
+        font-size: 16px;
+    }
+
+    .election-info p.election-day {
+        font-size: 22px;
+    }
+
+    .election-info a {
+        padding: 12px 22px;
+        font-size: 16px;
+    }
+    .hero-content h2 {
+        font-size: 80px;
+    }
+    .hero-content h3 {
+        font-size: 4rem;
+    }
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /*::::::::::::::::::::::::::::::::::::
+       Main Menu
+    ::::::::::::::::::::::::::::::::::::*/
+    .election-info {
+        max-width: 550px;
+        padding: 22px;
+    }
+
+    .election-info h2 {
+        font-size: 26px;
+    }
+
+    .election-info p {
+        font-size: 16px;
+    }
+
+    .election-info p.election-day {
+        font-size: 20px;
+    }
+
+    .navbar.navbar-expand-lg.fixed-top {
+        position: static;
+        background-color: #193764;
+    }
+    button.navbar-toggler {
+        color: #fff;
+    }
+
+    .navbar-nav {
+        background-color: #333;
+        margin-top: 30px;
+    }
+    .nav-item {
+        border-bottom: 1px solid;
+    }
+    nav .main-menu .navbar-nav .nav-item .nav-link {
+        padding: 15px 15px;
+    }
+    /*::::::::::::::::::::::::::::::::::::
+       Hero Area 
+    ::::::::::::::::::::::::::::::::::::*/
+    .hero-left {
+        width: 100%;
+    }
+    .hero-right {
+        width: 100%;
+    }
+    .bg-slider{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+    }
+    /*::::::::::::::::::::::::::::::::::::
+       About Area
+    ::::::::::::::::::::::::::::::::::::*/
+    .about-content {
+        margin-top: 30px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Service Section
+    ::::::::::::::::::::::::::::::::::::*/
+    .service-area {
+        padding: 60px 30px;
+    }
+
+    .single-service {
+        padding: 22px;
+    }
+
+    .single-service h2 {
+        font-size: 22px;
+    }
+
+    .single-service p {
+        font-size: 15px;
+    }
+
+    .service-icon {
+        font-size: 45px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Frequently asked questions
+    ::::::::::::::::::::::::::::::::::::*/
+    .faq-content {
+        margin-top: 15px;
+    }
+    /*::::::::::::::::::::::::::::::::::::
+       Call to Action Area
+    ::::::::::::::::::::::::::::::::::::*/
+    .cta-button {
+        text-align: left;
+        margin-top: 15px;
+    }
+}
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    /*::::::::::::::::::::::::::::::::::::
+       Section Title
+    ::::::::::::::::::::::::::::::::::::*/
+    .section-title h2 {
+        font-size: 24px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Main Menu
+    ::::::::::::::::::::::::::::::::::::*/
+    .navbar.navbar-expand-lg.fixed-top {
+        position: static;
+        background-color: #193764;
+    }
+    button.navbar-toggler {
+        color: #fff;
+    }
+
+    .navbar-nav {
+        background-color: #193764;
+        margin-top: 30px;
+    }
+    .nav-item {
+        border-bottom: 1px solid;
+    }
+    nav .main-menu .navbar-nav .nav-item .nav-link {
+        padding: 15px 15px;
+    }
+    /*::::::::::::::::::::::::::::::::::::
+       Hero Area 
+    ::::::::::::::::::::::::::::::::::::*/
+
+    .hero-content h2 {
+        font-size: 30px;
+    }
+
+    .hero-content h3 {
+        font-size: 15px;
+        margin: 15px 0;
+    }
+
+    .hero-aria::after {
+        width: 80%;
+    }
+
+    .hero-split {
+        flex-direction: column;
+    }
+
+    .hero-left{
+        width: 100%;
+        height: 40vh;
+    }
+    .hero-right {
+        width: 100%;
+        height: 50vh;
+    }
+    .slider-bg{
+        background-size: cover;
+        background-position: center 20% ;
+
+    }
+
+    .hero-content {
+        text-align: center;
+        margin: auto;
+        max-width: 70%;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Featured Area
+    ::::::::::::::::::::::::::::::::::::*/
+    .single-featured-item-wrap h3 {
+        font-size: 20px;
+    }
+    .featured-icon {
+        font-size: 40px;
+    }
+    /*::::::::::::::::::::::::::::::::::::
+       Portfolio Section
+    ::::::::::::::::::::::::::::::::::::*/
+    .work-list ul li {
+        margin-bottom: 5px;
+    }
+    .portfolio-hover h4 {
+        font-size: 18px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       About Area
+    ::::::::::::::::::::::::::::::::::::*/
+    .about-content {
+        margin-top: 30px;
+    }
+    .about-content h2 {
+        font-size: 24px;
+    }
+    .about-content h4 {
+        font-size: 16px;
+    }
+
+    .election-info {
+        margin: 30px 10px;
+        padding: 15px;
+    }
+
+    .election-info h2 {
+        font-size: 22px;
+    }
+
+    .election-info p {
+        font-size: 14px;
+    }
+
+    .election-info p.election-day {
+        font-size: 16px;
+    }
+
+    .election-info a {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    /*::::::::::::::::::::::::::::::::::::
+       Service Section
+    ::::::::::::::::::::::::::::::::::::*/
+    .service-area {
+        padding: 40px 10px;
+    }
+
+    .single-service {
+        margin-bottom: 40px;
+    }
+
+    .single-service h2 {
+        font-size: 18px;
+    }
+
+    .single-service p {
+        font-size: 13px;
+    }
+
+    .service-icon {
+        font-size: 35px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Frequently asked questions
+    ::::::::::::::::::::::::::::::::::::*/
+    .faq-content {
+        margin-top: 15px;
+    }
+    .single-faq h4 {
+        padding-right: 60px;
+        font-size: 16px;
+    }
+
+
+    /*::::::::::::::::::::::::::::::::::::
+       Blog Section
+    ::::::::::::::::::::::::::::::::::::*/
+    h4.blog-title {
+        font-size: 16px;
+    }
+    /*::::::::::::::::::::::::::::::::::::
+       Call to Action Area
+    ::::::::::::::::::::::::::::::::::::*/
+    .cta-button {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+
+
+    /*::::::::::::::::::::::::::::::::::::
+       Why choose Me Section
+    ::::::::::::::::::::::::::::::::::::*/
+    .single-why-me h4 {
+        font-size: 20px;
+    }
+    .why-me-right .why-me-icon,
+    .why-me-left .why-me-icon {
+        position: relative;
+        height: 100px;
+    }
+    .single-why-me.why-me-right,
+    .single-why-me {
+        padding: 0;
+        text-align: center;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Team Section
+    ::::::::::::::::::::::::::::::::::::*/
+    .single-team {
+        max-width: 300px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    /*::::::::::::::::::::::::::::::::::::
+       Pricing Area
+    ::::::::::::::::::::::::::::::::::::*/
+    .single-price-box {
+        max-width: 300px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Contact Area 
+    ::::::::::::::::::::::::::::::::::::*/
+    .contact-form {
+        padding: 15px;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .hero-left, .hero-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero-content h2 {
+        font-size: 60px;
+    }
+    .hero-content h3 {
+        font-size: 3rem;
+    }
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Main Menu
+    ::::::::::::::::::::::::::::::::::::*/
+    .navbar.navbar-expand-lg.fixed-top {
+        position: static;
+        background-color: #000;
+    }
+    button.navbar-toggler {
+        color: #fff;
+    }
+
+    .navbar-nav {
+        background-color: #333;
+        margin-top: 30px;
+    }
+    .nav-item {
+        border-bottom: 1px solid;
+    }
+    nav .main-menu .navbar-nav .nav-item .nav-link {
+        padding: 15px 15px;
+    }
+    /*::::::::::::::::::::::::::::::::::::
+       Hero Area 
+    ::::::::::::::::::::::::::::::::::::*/
+
+    /*::::::::::::::::::::::::::::::::::::
+       Portfolio Section
+    ::::::::::::::::::::::::::::::::::::*/
+    .work-list ul li {
+        margin-bottom: 5px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       About Area
+    ::::::::::::::::::::::::::::::::::::*/
+    .about-content {
+        margin-top: 30px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Service Section
+    ::::::::::::::::::::::::::::::::::::*/
+    .service-area {
+        padding: 50px 15px;
+    }
+
+    .single-service {
+        padding: 18px;
+        margin-bottom: 35px;
+    }
+
+    .service-icon {
+        font-size: 40px;
+    }
+
+    .single-service h2 {
+        font-size: 20px;
+    }
+
+    .single-service p {
+        font-size: 14px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Frequently asked questions
+    ::::::::::::::::::::::::::::::::::::*/
+    .faq-content {
+        margin-top: 15px;
+    }
+    /*::::::::::::::::::::::::::::::::::::
+       Call to Action Area
+    ::::::::::::::::::::::::::::::::::::*/
+    .cta-button {
+        text-align: left;
+        margin-top: 15px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Team Section
+    ::::::::::::::::::::::::::::::::::::*/
+    .single-team {
+        width: 300px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    /*::::::::::::::::::::::::::::::::::::
+       Pricing Area
+    ::::::::::::::::::::::::::::::::::::*/
+    .single-price-box {
+        width: 300px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    /*::::::::::::::::::::::::::::::::::::
+       Contact Area 
+    ::::::::::::::::::::::::::::::::::::*/
+    .contact-form {
+        padding: 30px;
+    }
+
+    .election-info {
+        padding: 18px;
+        margin: 35px 15px;
+    }
+
+    .election-info h2 {
+        font-size: 24px;
+    }
+
+    .election-info p {
+        font-size: 15px;
+    }
+
+    .election-info p.election-day {
+        font-size: 18px;
+    }
+
+    .election-info a {
+        padding: 10px 18px;
+        font-size: 14px;
+    }
+
+}
