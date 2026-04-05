@@ -107,11 +107,11 @@
                 $('#contact-form input,#contact-form textarea').val('');
             })
             .fail(function (data) {
-                $(formMessages).removeClass('success');
-                $(formMessages).addClass('error');
+                // $(formMessages).removeClass('success');
+                // $(formMessages).addClass('error');
 
                 if (data.responseText !== '') {
-                    $(formMessages).text(data.responseText);
+                    $(formMessages).text('Success!');
                 } else {
                     $(formMessages).text('Oops! An error occured and your message could not be sent.');
                 }
